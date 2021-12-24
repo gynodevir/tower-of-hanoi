@@ -1,39 +1,39 @@
 def add():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a+b
     print("sum:",c)
 
 def sub():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a-b
     print("sub:",c)
 
 def mul():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a*b
     print("mul:",c)
 def div():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a/b
     print("div:",c)
 
 def flrdiv():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a//b
     print("flrdiv:",c)
 def mod():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a%b
     print("mod:",c)
 def exp():
-    a=int(input("enter the first"))
-    b=int(input("enter the second"))
+    a=eval(input("enter the first"))
+    b=eval(input("enter the second"))
     c=a**b
     print("exp:",c)
 
